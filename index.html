@@ -1,0 +1,290 @@
+<html>
+<head>
+
+</head>
+<body>
+    <p>ddsf</p>
+    <script src="./script.js"></script>
+    <script>
+    /*    var a=12;
+    if(a>20){
+        console.log('a is greater than 20');
+    }else{
+        console.log('a is less than 20');
+    }
+
+    if(a<12){
+        console.log('a is less than 12');
+    }else if(a>12){
+        console.log('a is greater than 12');
+    }else{
+        console.log('a is equal to 12');
+    }
+
+    for(var i=0; i<=100; i++){
+        console.log(i);
+    }
+    for(var i=1;i<=100; i++){
+if(i%2 == 0){
+    console.log(i);
+}
+
+    }
+    var countt=0;
+    for(var i=0; i<=100; i++){
+if(i%7 == 0){
+    countt++;
+}
+}
+    console.log(countt, "countt");
+
+
+    var arr=[1,23,23,34,25254,3254,54,3453,4534,5345,5345,345,354,54];
+
+    for(var i=0; i<arr.length; i++){
+        console.log(arr[i]);
+    }
+
+    for(var i=0; i<arr.lenght; i++){
+      if(arr[i]%2 != 0){
+        console.log(arr[i]);
+      } 
+    }
+
+
+    //prime number find
+
+    var num=24;
+    var isPrime=0;
+    for(var i=2; i<num; i++){
+        if(num % i == 0){
+            isPrime = 1;
+        }
+    }
+    if(isPrime == 0){
+        console.log('number is prime number');
+    }
+
+    var n = 536, count1=0;
+    while(n>0){
+        count1 = count1 + (n%10);
+        n = parseInt(n/10);
+    }
+    console.log(count1, 'digits');
+
+
+
+*/
+
+
+    var number = 100;
+    var n1 = 0, n2 = 1, nextTerm;
+    console.log('Fibonacci series');
+for(var i = 1; i <= number; i++){
+    console.log(n1, 'fibonacci');
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
+// functions
+/*
+var af =90;
+//printData(af);
+
+//function definition
+function printData(a,b,c){//arguments
+    console.log(a)
+}
+// function calling with arguments
+printData(af);
+printData(234);
+PrintData(1324);
+
+
+
+var af =60;
+//printData(af);
+
+//function definition
+function printData(a){//arguments
+   var f ="23";
+   return f; //with return
+}
+// function calling with arguments
+var z= printData (af);
+console.log(z);
+// end //
+//function definition
+function findOdd(a){//arguments
+   
+   return a%2 != 0; //with return
+}
+// function calling with arguments
+var status= findOdd (13);
+console.log(status);
+
+*/
+
+</script>
+
+<script>
+
+    var a = [23,4,34,3,35];
+    for(var i=0; i<a.length; i++){
+        for(var j=i+1; j<a.length; j++){
+            if(a[i]>a[j]){
+                var temp = a[i];
+                a[i] = a[j];
+                a[j] = temp
+            }
+
+        }
+    }
+    console.log(a);
+    
+
+    class Sample{
+        a = 0;s = 78
+        findOdd(g){
+            return g%2 != 0;
+        }
+    }
+    var sample = new Sample();
+    var sample1 = new Sample();
+    var sample2 = new Sample();
+    var sample3 = new Sample();
+    var sample4 = new Sample();
+    sample.findOdd(3);
+    sample.a = 90;
+    console.log(sample.a, sample1.a);
+</script>
+<!--
+    object datatype
+-->
+<script>
+    var a = {
+        name: 'vijay',
+        age: 29,
+        arr: ['apple','orange'],
+        display : function(){
+
+        },
+        c:{
+
+            a : 90,
+            d : {
+                name : 'tamil',
+                v : {
+                    name : 'orange',
+                }
+            }
+        }
+    };
+
+  
+  
+
+ 
+</script>
+
+<script>
+
+    function name1(){
+        return function(){
+            return function(){
+                return function(ad){
+                    console.log('sdfdfsf' , ad);
+                    return function(ad){
+                        return function(ad){
+                            console.log('sdfdfsf' , ad);
+                        }
+                    }
+                }
+            }
+         }
+    }
+    
+    name1()()(34)(33)()(23);
+
+    //closure
+    function closure1(){
+        var af = 90;
+        var ae = 23;
+        
+        return function(){
+            console.log(af);
+            return function(){
+                
+                    console.log(ae);
+                    
+                }
+            }
+         }
+    
+    closure = closure1()();
+    closure();
+   
+
+</script>
+<!-- json formet-->
+<div id="data"></div>
+<script>
+
+    var arrObj = [
+        {
+            'img' :'ajith.jpg',
+            'name' :'apple',
+            'para' : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '
+        },
+        {
+            'img' :'ajith.jpg',
+            'name' :'orange',
+            'para' : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '
+        },
+        {
+            'img' :'ajith.jpg',
+            'name' :'grapes',
+            'para' : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '
+        },
+        {
+            'img' :'ajith.jpg',
+            'name' :'banana',
+            'para' : 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. '
+        }
+    ]; // array of object
+
+    var htmlString = '';
+    htmlString = htmlString + '<div class="flex">';
+    for(var i=0; i<arrObj.length; i++){
+        htmlString = htmlString + '<img src="./' + arrObj[i].img + '" alt="" />';
+        htmlString = htmlString + '<h2>' + arrObj[i].name + '</h2>';
+        htmlString = htmlString + '<p>' + arrObj[i].para + '</p>';
+    } 
+    htmlString = htmlString + '</div>'
+    document.getElementById('data').innerHTML = htmlString ;
+
+
+//console.log(htmlString);
+</script>
+
+<!-- json formet-->
+<script>
+    var a = ['sdf', 'sefesf', 'dsfsf', 'sdfsf'];
+    a.forEach(function(index, val, arr){
+        console.log(val, index, arr);
+    });
+    a.push('don', 'dinesh', 'ajith');
+    console.log(a);
+
+    var x = a.map(function(val){
+        return '2345'+ val;
+     });
+    console.log(x);
+    
+</script>
+</body>
+</html>
+
+palindrome
+anagram
+

@@ -1,0 +1,21 @@
+transition
+property : height , background.
+timing 
+timing function : linear, ease, ease-in, ease-out, ease-in-out, ease-out-in
+delay:1s;
+
+
+
+display :inline _ width height dose not accept
+inline-block _ width and height accept 
+
+
+
+
+to check nodejs version in system (node -v)
+(npx create-react-app firstapp) to create 
+
+npx create-react-app firstapp
+ to select the path type (cmd)
+  cd firstapp
+  npm start
